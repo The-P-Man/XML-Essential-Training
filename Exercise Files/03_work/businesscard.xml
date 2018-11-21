@@ -1,0 +1,51 @@
+<?xml version="1.0"?>                                           <!-- xml doc declaration -->
+<?xml-stylesheet type="text/css" href="businesscard.css"?>      <!-- process instruction -->
+<BusinessCards>                                                 <!-- root node -->
+   <BusinessCard id='1'>                                               <!-- child of root node -->
+      <Name>Joe Marini</Name>                                   <!-- grandchild of root node -->
+      <phone type="mobile">(415) 555-4567</phone>               <!-- 'type' attribute -->
+      <phone type="work">(800) 555-9876</phone>
+      <phone type="fax">(510) 555-1234</phone>
+      <email>joe@joe.com</email>
+   </BusinessCard>
+
+   <BusinessCard id='2'>
+      <Name>Sophia Jesman</Name>
+      <phone type="mobile">(415) 555-0000</phone>
+      <phone type="work" primary="primary">(800) 555-1111</phone>
+      <phone type="fax">(510) 555-2222</phone>
+      <email>someone@else.com</email>
+
+      <mytable class='table'>                                          <!-- table, not rendered in xml -->
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th> 
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Sophia</td>
+          <td>Jasmen</td> 
+          <td>28</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </mytable>
+  </BusinessCard>
+
+  <BusinessCard id='3'>
+    <Name>Philip Mannering</Name>
+    <phone type='mobile' primary='primary'>07896 085 122</phone>
+    <email type='home'>philmannering@gmail.com</email>
+    <email type='work'>philip.mannering@theinformationlab.co.uk</email>
+  </BusinessCard>
+
+  <BusinessCard id='4'>
+    <Name>Alex Jones</Name>
+    <phone type='mobile'>07888 123 456</phone>
+    <email type='work'>alex.jones@theinformationlab.co.uk</email>
+  </BusinessCard>
+</BusinessCards>
+

@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="37">C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml</File>
+          <FormatSpecificOptions>
+            <ParseRoot>False</ParseRoot>
+            <OuterXML>False</OuterXML>
+            <IgnoreErrors>False</IgnoreErrors>
+            <XmlElement />
+            <ChildValues>True</ChildValues>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>businesscard_style.xml</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessCard" size="39" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="Name" size="12" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="phone" size="14" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="phone_type" size="6" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="phone_2" size="14" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="phone_2_type" size="4" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="phone_3" size="14" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="phone_3_type" size="3" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="email" size="16" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="phone_2_primary" size="7" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\phili\AppData\Local\Temp\Engine_10824_0b075867e4df4bc087daeb74e02920bc_\Engine_13360_2a9e752531d749da945da1dbb64cbc69_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="21">C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml</File>
+          <FormatSpecificOptions>
+            <TrimWhiteSpace>Unset</TrimWhiteSpace>
+            <LineEndStyle>Unset</LineEndStyle>
+            <AllowLongLines>Unset</AllowLongLines>
+            <CodePage>65001</CodePage>
+            <AllowShortLines>Unset</AllowShortLines>
+            <FlatFileXML>
+              <flatfile version="1">
+                <file eoltype="none" allowShortLines="t" allowLongLines="f" trimWhiteSpace="t" />
+                <fields>
+                  <field name="Field_1" type="V_String" length="999" />
+                </fields>
+              </flatfile>
+            </FlatFileXML>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>businesscard_style.xml</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="999" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\phili\AppData\Local\Temp\Engine_10824_0b075867e4df4bc087daeb74e02920bc_\Engine_13360_aebf84a24085459898b18cd368a1db9d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="246" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>Field_1</XMLField>
+          <XMLElement>BusinessCard</XMLElement>
+          <ChildValues value="True" />
+          <OuterXML value="False" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Child = BusinessCard</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="999" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="BusinessCard" size="39" type="V_String" />
+            <Field name="Name" size="12" type="V_String" />
+            <Field name="phone" size="14" type="V_String" />
+            <Field name="phone_type" size="6" type="V_String" />
+            <Field name="phone_2" size="14" type="V_String" />
+            <Field name="phone_2_type" size="4" type="V_String" />
+            <Field name="phone_3" size="14" type="V_String" />
+            <Field name="phone_3_type" size="3" type="V_String" />
+            <Field name="email" size="16" type="V_String" />
+            <Field name="phone_2_primary" size="7" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="54" width="300" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Import the file as an xml to save some time.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="126" width="300" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Best child name to pick is the one ABOVE the tags with content. AND select return child values.
+
+Number of rows equals number of children. For instance, 2x 'BusinessCard' equates to 2 rows. Specifying the child name phone, gives 6 rows because there are 6 phone elements.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="246" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>Field_1</XMLField>
+          <XMLElement>phone</XMLElement>
+          <ChildValues value="False" />
+          <OuterXML value="False" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Child = phone</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="999" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="phone" size="14" type="V_String" />
+            <Field name="type" size="6" type="V_String" />
+            <Field name="primary" size="7" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\phili\AppData\Local\Temp\Engine_10824_0b075867e4df4bc087daeb74e02920bc_\Engine_13360_a2e318066d3542a78f3a792505419cb4_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="258" width="300" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The attributes are also extracted as a separate column</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="246" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>Field_1</XMLField>
+          <XMLElement />
+          <ChildValues value="True" />
+          <OuterXML value="True" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="999" source="File: C:\Users\phili\Documents\GitHub\XML Essential Training\Exercise Files\03_work\businesscard_style.xml" type="V_String" />
+            <Field name="BusinessCard" size="39" type="V_String" />
+            <Field name="Name" size="12" type="V_String" />
+            <Field name="Name_OuterXML" size="25" type="V_String" />
+            <Field name="phone" size="14" type="V_String" />
+            <Field name="phone_type" size="6" type="V_String" />
+            <Field name="phone_OuterXML" size="43" type="V_String" />
+            <Field name="phone_2" size="14" type="V_String" />
+            <Field name="phone_2_type" size="4" type="V_String" />
+            <Field name="phone_2_OuterXML" size="59" type="V_String" />
+            <Field name="phone_3" size="14" type="V_String" />
+            <Field name="phone_3_type" size="3" type="V_String" />
+            <Field name="phone_3_OuterXML" size="40" type="V_String" />
+            <Field name="email" size="16" type="V_String" />
+            <Field name="email_OuterXML" size="31" type="V_String" />
+            <Field name="BusinessCard_OuterXML" size="266" type="V_String" />
+            <Field name="phone_2_primary" size="7" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\phili\AppData\Local\Temp\Engine_10824_0b075867e4df4bc087daeb74e02920bc_\Engine_13360_3d4cb28c933d47068270b23a435ecdb2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="318" width="300" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>'Return Outer XML' gives the whole element (tags + content). This shouldn't be necessary with judicious selection of child tag.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>XML_Parse</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
